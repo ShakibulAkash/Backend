@@ -9,7 +9,7 @@ import { CurrentUserMiddleware } from './utility/middlewares/current-user.middle
 
 
 @Module({
-  imports: [TypeOrmModule.forRoot(dataSourceOptions),UsersModule,SellerModule],
+  imports: [TypeOrmModule.forRoot(dataSourceOptions),UsersModule,SellerModule,AdminModule],
   controllers: [],
   providers: [],
 })
